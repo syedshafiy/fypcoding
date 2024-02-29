@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Agent Booking System</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div>HI</div>
+            <span>TRAVEL AGENT<br />BOOKING SYSTEM  </span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="./index.html#home">Home</a></li>
+          <li><a href="./index.html#about">About</a></li>
+          <li><a href="./index.html#places">Places</a></li>
+          <li><a href="./index.html#feature">Feature</a></li>
+          <li><a href="./login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="booking">
+        <div class="section__container booking__container">
+          <form action="/">
+            <div class="input__group">
+              <label for="destination">Destination</label>
+              <input type="text" placeholder="Your Destination" />
+            </div>
+            <div class="input__group">
+              <label for="arrival">Check In</label>
+              <input type="text" placeholder="Your check-in date" />
+            </div>
+            <div class="input__group">
+              <label for="departure">Check Out</label>
+              <input type="text" placeholder="Your check out date" />
+            </div>
+            <div class="input__group">
+              <label for="guests">Guests</label>
+              <input type="text" placeholder="No Of Guests" />
+            </div>
+      
+            <div class="input__group">
+            <label for="lang">Language</label>
+            <select name="languages" id="lang">
+              <option value=""></option>
+              <option value="Mandarin">Mandarin</option>
+              <option value="English">English</option>
+              <option value="Hindi">Hindi</option>
+              <option value="Arabic">Arabic</option>
+              <option value="Spanish">Spanish</option>
+            </select>
+            </div>
+      
+            <div class="input__group">
+            <label for="dispeople">Disable People</label>
+            <select name="Disable People" id="dispeople">
+              <option value=""></option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+            </div>
+            
+            <button class="btn">Search</button>
+          </form>
+        </div>
+      </section>
+      
+
+    <section class="section__container trending__container" id="trending">
+        <div class="section__header">
+          <div class="section__nav">
+            <span><i class="ri-arrow-left-s-line"></i></span>
+            <span><i class="ri-arrow-right-s-line"></i></span>
+          </div>
+        </div>
+        <div class="trending__grid">
+          <div class="trending__card">
+            <img src="./melaka.jpg" height="300" alt="trending" />
+            <h1>Melaka Street</h1>
+            <p>Historic city</p>
+            <div class="trending__details">
+              <div class="price">
+                <p>From</p>
+                <h3>RM120</h3>
+                <h3>Disable people : Yes</h3>
+                <h3>Language : English , Spain</h3>
+              </div>
+              <div class="trending__ratings">
+                <div>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>4.8 (10)</p>
+              </div>
+            </div>
+            <p>
+              <span><i class="ri-check-line"></i></span> Free Cancellation
+            </p>
+          </div>
+          <div class="trending__card">
+            <img src="./negeri sembilan.jpeg" height="300" alt="trending" />
+            <h1>Negeri Sembilan</h1>
+            <p>Minangkabau House</p>
+            <div class="trending__details">
+              <div class="price">
+                <p>From</p>
+                <h3>RM100</h3>
+                <h3>Disable people : Yes</h3>
+                <h3>Language : English , Hindi</h3>
+              </div>
+              <div class="trending__ratings">
+                <div>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>4.2 (25)</p>
+              </div>
+            </div>
+            <p>
+              <span><i class="ri-check-line"></i></span> Free Cancellation
+            </p>
+          </div>
+          <div class="trending__card">
+            <img src="./pahang.jpg" height="300" alt="trending" />
+            <h1>Wild Forest Life</h1>
+            <p>Scenic Beauty | Adrenaline Rush</p>
+            <div class="trending__details">
+              <div class="price">
+                <p>From</p>
+                <h3>RM200</h3>
+                <h3>Disable people : No</h3>
+                <h3>Language : English , Mandarin</h3>
+              </div>
+              <div class="trending__ratings">
+                <div>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>4.5 (15)</p>
+              </div>
+            </div>
+            <p>
+              <span><i class="ri-check-line"></i></span> Free Cancellation
+            </p>
+          </div>
+        </div>
+      </section>
+    
+    <footer class="footer">
+      <div class="section__container footer__container">
+        Copyright © FYP Syed Shafiy. All rights reserved.
+      <div class="footer__bar">
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

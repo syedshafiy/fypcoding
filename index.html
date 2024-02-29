@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Agent Booking System</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div>HI</div>
+            <span>TRAVEL AGENT<br />BOOKING SYSTEM  </span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#places">Places</a></li>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <p class="section__subheader">ABOUT US</p>
+        <h1>Make Your<br />Travel Easier</h1>
+        <button class="btn">Feast your eyes on</button>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div class="section__container booking__container">
+        <form action="./search.html">
+          <div class="input__group">
+            <label for="destination">Destination</label>
+            <input type="text" placeholder="Your Destination" />
+          </div>
+          <div class="input__group">
+            <label for="arrival">Check In</label>
+            <input type="date" placeholder="Your check-in date" />
+          </div>
+          <div class="input__group">
+            <label for="departure">Check Out</label>
+            <input type="date" placeholder="Your check out date" />
+          </div>
+          <div class="input__group">
+            <label for="guests">Guests</label>
+            <input type="number" placeholder="No Of Guests" />
+          </div>
+    
+          <div class="input__group">
+          <label for="lang">Language</label>
+          <select name="languages" id="lang">
+            <option value="English" selected>English</option>
+            <option value="Mandarin">Mandarin</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Spanish">Spanish</option>
+          </select>
+          </div>
+    
+          <div class="input__group">
+          <label for="dispeople">Disable People</label>
+          <select name="Disable People" id="dispeople">
+            <option value="No" selected>No</option>
+            <option value="Yes">Yes</option>
+          </select>
+          </div>
+
+          <button class="btn"a href="search.html">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="kuala_lumpur.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-user-line"></i></span>
+            <h4>Strong Team</h4>
+            <p>
+              Unlocking Hospitality Excellence And Ensures Your Perfect Stay
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="Traveling_Instagram_Post.png" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-check-line"></i></span>
+            <h4>Variety Agency</h4>
+            <p>Experience the best holiday with your chosen agency</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">Discover Our Underground</h2>
+          <p class="section__description">
+            Travel Agent Booking System is a centralized online platform designed to bring together various tour agencies and facilitate the organization and booking of tourist visits to Malaysia. This system serves as a comprehensive website that acts as a one-stop solution for travelers looking to explore Malaysia and for tour agencies operating within the country.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="room__container" id="places">
+      <p class="section__subheader">Places</p>
+      <h2 class="section__header">Available Places</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <img src="beach.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Beach</h4>
+              <p>Healing with the view of sand and beach.</p>
+            </div>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="town.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Town</h4>
+              <p>Holiday at the town with beautifull development.</p>
+            </div>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="hill.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Hills</h4>
+              <p>
+                Enjoy the view at the top of the hills
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+      <p class="section__subheader">FEATURES</p>
+      <h2 class="section__header">Core Features</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span><i class="ri-thumb-up-line"></i></span>
+          <h4>Have A Better Price</h4>
+          <p>
+            Discover Malaysia at the best prices with our comprehensive travel agent packages, covering accommodations, transportation, and exclusive deals.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-time-line"></i></span>
+          <h4>Disable Person Speciality</h4>
+          <p>
+            Families with disabled members will receive assistance and be provided with facilities.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-map-pin-line"></i></span>
+          <h4>Language Barrier</h4>
+          <p>
+            We offer a selection of available languages to enable tourists to communicate with our travel agents
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        Copyright © FYP Syed Shafiy. All rights reserved.
+      <div class="footer__bar">
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
